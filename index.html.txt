@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>استاد کیانی | سایت شخصی</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.8;
+    }
+    h1, h2 {
+      color: #111;
+    }
+    .section {
+      margin-bottom: 2.5rem;
+    }
+    .portfolio img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .skills span {
+      display: inline-block;
+      background: #eee;
+      padding: 6px 12px;
+      margin: 4px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h1>سلام، من استاد کیانی هستم</h1>
+  <p>نقاش، دونده، بدنساز و عاشق ساختن. به دنبال رشد و ساختن دنیای خودم هستم.</p>
+
+  <div class="section">
+    <h2>تماس با من</h2>
+    <p>ایمیل: your@email.com</p>
+    <p>اینستاگرام: @yourinstagram</p>
+  </div>
+
+  <div class="section skills">
+    <h2>مهارت‌ها</h2>
+    <span>نقاشی</span>
+    <span>طراحی کاراکتر</span>
+    <span>HTML/CSS</span>
+    <span>Python</span>
+    <span>بدنسازی</span>
+  </div>
+
+  <div class="section portfolio">
+    <h2>نمونه‌کارها</h2>
+    <p>در حال به‌روزرسانی...</p>
+    <!-- اگر خواستی عکس اضافه کنی اینطوری می‌نویسی:
+    <img src="artwork1.jpg" alt="نمونه نقاشی ۱" />
+    -->
+  </div>
+
+  <footer style="margin-top: 3rem; text-align: center; font-size: 0.8rem;">
+    © 2025 استاد کیانی
+  </footer>
+</body>
+</html>
