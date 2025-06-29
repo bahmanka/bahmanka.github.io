@@ -1,68 +1,99 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>استاد کیانی | سایت شخصی</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ostad Kiani | Personal Website</title>
   <style>
     body {
-      font-family: sans-serif;
-      background: #f9f9f9;
-      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       max-width: 800px;
-      margin: 0 auto;
-      padding: 2rem;
-      line-height: 1.8;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      color: #222;
+      background: #fefefe;
+      line-height: 1.6;
     }
     h1, h2 {
       color: #111;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
     }
-    .section {
+    section {
       margin-bottom: 2.5rem;
-    }
-    .portfolio img {
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 1rem;
     }
     .skills span {
       display: inline-block;
-      background: #eee;
-      padding: 6px 12px;
-      margin: 4px;
+      background: #e0e0e0;
+      margin: 0.3rem 0.5rem 0.3rem 0;
+      padding: 0.3rem 0.7rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    .portfolio img {
+      max-width: 100%;
       border-radius: 6px;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #555;
+      margin-top: 4rem;
+      padding-bottom: 1rem;
     }
   </style>
 </head>
 <body>
-  <h1>سلام، من استاد کیانی هستم</h1>
-  <p>نقاش، دونده، بدنساز و عاشق ساختن. به دنبال رشد و ساختن دنیای خودم هستم.</p>
 
-  <div class="section">
-    <h2>تماس با من</h2>
-    <p>ایمیل: your@email.com</p>
-    <p>اینستاگرام: @yourinstagram</p>
-  </div>
+  <section id="intro">
+    <h1>Hello, I’m Ostad Kiani</h1>
+    <p>Artist, runner, bodybuilder, and passionate creator. Striving to grow and build my own world.</p>
+  </section>
 
-  <div class="section skills">
-    <h2>مهارت‌ها</h2>
-    <span>نقاشی</span>
-    <span>طراحی کاراکتر</span>
-    <span>HTML/CSS</span>
-    <span>Python</span>
-    <span>بدنسازی</span>
-  </div>
+  <section id="bio">
+    <h2>Biography</h2>
+    <p>Since childhood, I have been passionate about painting. Along the way, I discovered bodybuilding and running, and now I aim to explore beauty through form, movement, and color.</p>
+  </section>
 
-  <div class="section portfolio">
-    <h2>نمونه‌کارها</h2>
-    <p>در حال به‌روزرسانی...</p>
-    <!-- اگر خواستی عکس اضافه کنی اینطوری می‌نویسی:
-    <img src="artwork1.jpg" alt="نمونه نقاشی ۱" />
+  <section id="resume">
+    <h2>Resume & Skills</h2>
+    <p>Here are some of my core skills and experiences:</p>
+    <div class="skills">
+      <span>Painting</span>
+      <span>Character Design</span>
+      <span>HTML &amp; CSS</span>
+      <span>Python</span>
+      <span>Bodybuilding</span>
+    </div>
+    <p>For detailed resume, you can add a link to your PDF here.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Currently updating my portfolio. Check back soon!</p>
+    <!-- Example of adding an image: 
+    <img src="artwork1.jpg" alt="Portrait painting" /> 
     -->
-  </div>
+  </section>
 
-  <footer style="margin-top: 3rem; text-align: center; font-size: 0.8rem;">
-    © 2025 استاد کیانی
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>Instagram: <a href="https://instagram.com/yourinstagram" target="_blank">@yourinstagram</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Ostad Kiani
   </footer>
+
 </body>
 </html>
